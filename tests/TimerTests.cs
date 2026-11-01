@@ -142,13 +142,13 @@ namespace EinfacherTimer
             });
             Check("Warning is centered on full screen at multiple resolutions", delegate
             {
-                Equal(new Point(760, 392), OverlayLayout.WarningLocation(
+                Equal(new Point(760, 284), OverlayLayout.WarningLocation(
                     new Rectangle(0, 0, 1920, 1080), new Size(400, 80)));
-                Equal(new Point(440, 248), OverlayLayout.WarningLocation(
+                Equal(new Point(440, 176), OverlayLayout.WarningLocation(
                     new Rectangle(0, 0, 1280, 720), new Size(400, 80)));
-                Equal(new Point(1720, 824), OverlayLayout.WarningLocation(
+                Equal(new Point(1720, 608), OverlayLayout.WarningLocation(
                     new Rectangle(0, 0, 3840, 2160), new Size(400, 80)));
-                Equal(new Point(-1160, 392), OverlayLayout.WarningLocation(
+                Equal(new Point(-1160, 284), OverlayLayout.WarningLocation(
                     new Rectangle(-1920, 0, 1920, 1080), new Size(400, 80)));
             });
             Console.WriteLine(passed + " tests passed.");

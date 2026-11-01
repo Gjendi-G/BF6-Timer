@@ -47,7 +47,7 @@ namespace EinfacherTimer
         public static Point WarningLocation(Rectangle screen, Size window)
         {
             return new Point(screen.Left + (screen.Width - window.Width) / 2,
-                screen.Top + screen.Height * 2 / 5 - window.Height / 2);
+                screen.Top + screen.Height * 3 / 10 - window.Height / 2);
         }
     }
     internal sealed class CountdownState
@@ -155,7 +155,7 @@ namespace EinfacherTimer
         public WarningOverlay()
         {
             Text = "Heli-Warnung";
-            message.Text = "Heli up soon!";
+            message.Text = "HELI UP SOON.";
             // Opacity bleibt 1: kraeftig rote Schrift, transparenter Hintergrund.
         }
 
