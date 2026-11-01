@@ -13,8 +13,8 @@ START
 ANZEIGE
 Der Timer steht links oben bei 35/45, ist 164 x 70 Pixel gross und zeigt
 rote, leicht transparente Schrift ohne sichtbaren Hintergrund oder Rahmen.
-Bei 10 Sekunden erscheint mittig bei 30 Prozent der Bildschirmhoehe die
-grosse, fette rote Meldung "HELI UP SOON.". Bei Ablauf verschwindet sie.
+Bei 10 Sekunden erscheint mittig bei 20 Prozent der Bildschirmhoehe die
+grosse, fette rote Meldung "HELI UP SOON". Bei Ablauf verschwindet sie.
 Ein Neustart blendet die Warnung sofort aus. Der Timer bleibt bei 00:00.
 Beide Anzeigen bleiben im Vordergrund und nehmen keine Eingaben an.
 Zum Beenden: Rechtsklick auf das Timer-Symbol im Infobereich -> Beenden.
